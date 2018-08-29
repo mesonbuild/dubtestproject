@@ -1,0 +1,33 @@
+{
+	"name": "dubtestproject",
+	"authors": [
+		"Meson Team"
+	],
+	"description": "A test project.",
+	"copyright": "Copyright © 2018, Meson Team",
+	"license": "MIT",
+	"homepage": "http://mesonbuild.com",
+	"targetType": "none",
+	"dependencies": {
+		"dubtestproject:test1": ">=0.0.0",
+		"dubtestproject:test2": ">=0.0.0",
+	},
+	"subPackages": [
+		{
+			"name": "test1",
+			"targetType": "executable",
+			"targetName": "test1",
+			"sourcePaths": [
+				"source/test1"
+			]
+		},
+		{
+			"name": "test2",
+			"targetType": "library",
+			"targetName": "test2",
+			"sourcePaths": [
+				"source/test2"
+			]
+		},
+	]
+}
