@@ -11,6 +11,7 @@
 	"dependencies": {
 		"dubtestproject:test1": ">=0.0.0",
 		"dubtestproject:test2": ">=0.0.0",
+		"dubtestproject:test3": ">=0.0.0"
 	},
 	"subPackages": [
 		{
@@ -29,5 +30,13 @@
 				"source/test2"
 			]
 		},
+		{
+                        "name": "test3",
+                        "targetType": "staticLibrary",
+                        "targetName": "test3",
+                        "sourcePaths": [
+                                "source/test3"
+                        ]
+                }
 	]
 }
