@@ -4,5 +4,5 @@ import std.stdio;
 
 void printTest()
 {
-	writeln("printTest() called");
+    writeln("printTest() called");
 }
