@@ -1,0 +1,7 @@
+/.vscode
+/.dub
+
+.DS_Store
+*~
+
+/bin
