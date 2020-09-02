@@ -20,6 +20,7 @@
       "name": "test1",
       "targetType": "executable",
       "targetName": "test1",
+      "targetPath": "bin",
       "sourcePaths": [
         "source/test1"
       ]
@@ -28,6 +29,7 @@
       "name": "test2",
       "targetType": "library",
       "targetName": "test2",
+      "targetPath": "bin",
       "sourcePaths": [
         "source/test2"
       ]
@@ -36,6 +38,7 @@
       "name": "test3",
       "targetType": "staticLibrary",
       "targetName": "test3",
+      "targetPath": "bin",
       "sourcePaths": [
         "source/test3"
       ]
@@ -43,6 +46,7 @@
     {
       "name": "test4",
       "targetType": "sourceLibrary",
+      "targetPath": "bin",
       "targetName": "test4",
       "sourcePaths": [
         "source/test4"
@@ -51,6 +55,7 @@
     {
       "name": "test5",
       "targetType":"dynamicLibrary",
+      "targetPath": "bin",
       "targetName": "test5",
       "sourcePaths": [
         "source/test5"
