@@ -4,7 +4,7 @@
     "Meson Team"
   ],
   "description": "A test project.",
-  "copyright": "Copyright © 2018, Meson Team",
+  "copyright": "Copyright © 2018-2020, Meson Team",
   "license": "MIT",
   "homepage": "http://mesonbuild.com",
   "targetType": "none",
