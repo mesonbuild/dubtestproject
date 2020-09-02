@@ -11,7 +11,9 @@
   "dependencies": {
     "dubtestproject:test1": ">=0.0.0",
     "dubtestproject:test2": ">=0.0.0",
-    "dubtestproject:test3": ">=0.0.0"
+    "dubtestproject:test3": ">=0.0.0",
+    "dubtestproject:test4": ">=0.0.0",
+    "dubtestproject:test5": ">=0.0.0"
   },
   "subPackages": [
     {
@@ -36,6 +38,22 @@
       "targetName": "test3",
       "sourcePaths": [
         "source/test3"
+      ]
+    },
+    {
+      "name": "test4",
+      "targetType": "sourceLibrary",
+      "targetName": "test4",
+      "sourcePaths": [
+        "source/test4"
+      ]
+    },
+    {
+      "name": "test5",
+      "targetType":"dynamicLibrary",
+      "targetName": "test5",
+      "sourcePaths": [
+        "source/test5"
       ]
     }
   ]
