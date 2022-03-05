@@ -13,7 +13,8 @@
     "dubtestproject:test2": ">=0.0.0",
     "dubtestproject:test3": ">=0.0.0",
     "dubtestproject:test4": ">=0.0.0",
-    "dubtestproject:test5": ">=0.0.0"
+    "dubtestproject:test5": ">=0.0.0",
+    "dubtestproject:test6": ">=0.0.0"
   },
   "subPackages": [
     {
@@ -59,6 +60,18 @@
       "targetName": "test5",
       "sourcePaths": [
         "source/test5"
+      ]
+    },
+    {
+      "name": "test6",
+      "targetType":"library",
+      "targetPath": "bin",
+      "targetName": "test6",
+      "dependencies": {
+        "urld": "2.1.1"
+      },
+      "sourcePaths": [
+        "source/test6"
       ]
     }
   ]
