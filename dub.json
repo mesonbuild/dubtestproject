@@ -72,6 +72,9 @@
       },
       "sourcePaths": [
         "source/test6"
+      ],
+      "importPaths": [
+        "source/test6"
       ]
     }
   ]
