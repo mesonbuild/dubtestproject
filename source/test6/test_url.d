@@ -1,9 +1,11 @@
 module test_url;
 
-import std.stdio;
 import url;
 
-void testUrl()
+enum testUrlResult = "soap.beep://beep.example.net:1772/serverinfo/info?token=my-api-token";
+
+/// returns "soap.beep://beep.example.net:1772/serverinfo/info?token=my-api-token"
+string testUrl() pure
 {
     URL url;
     with (url)
@@ -14,5 +16,10 @@ void testUrl()
         path = "/serverinfo/info";
         queryParams.add("token", "my-api-token");
     }
-    writeln(url);
+    return url.toString();
+}
+
+unittest
+{
+    assert(testUrl() == testUrlResult);
 }
